@@ -20,9 +20,7 @@ The **Grand Horizon Hotel Reservation App** is a mobile application built using 
 - **NativeWind**: For efficient styling with utility-first CSS classes.
 - **React Query**: For managing data fetching and caching.
 - **Supabase**: Backend as a service used for authentication, real-time data, and database management.
-- **SQLite**: For local data storage, providing offline capabilities.
 - **TypeScript**: To ensure type safety and improved developer experience.
-- **Tailwind CSS**: For design consistency and easy styling (via NativeWind).
 
 ## Getting Started
 
@@ -39,5 +37,5 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/the-grand-horizon-hotel-app.git
+   git clone https://github.com/Asemhagihasan/The-Grand-Horizen.git
    ```
