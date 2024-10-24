@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# The Grand Horizon Hotel Reservation App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The **Grand Horizon Hotel Reservation App** is a mobile application built using React Native, designed to provide users with a smooth and efficient way to book hotel rooms. The app allows users to browse available rooms, view amenities, make bookings, and manage their profiles, while offering admin functionality to manage hotel resources.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Room Booking**: Users can search and book available rooms with real-time updates.
+- **User Authentication**: Secure login and sign-up functionalities, allowing users to manage their bookings.
+- **Profile Management**: Users can edit their personal details like name, email, phone number, and more.
+- **Admin Panel**: Admins can manage rooms, bookings, and other hotel-related settings.
+- **Multi-language Support**: Users can switch between multiple languages (e.g., English, Turkish).
+- **Real-time Updates**: Ensures room availability and booking status are always up-to-date.
+- **Secure Payments**: Supports online payment methods for bookings.
+- **Responsive Design**: Compatible with both iOS and Android platforms.
 
+## Technologies Used
+
+- **React Native**: For building cross-platform mobile applications.
+- **Expo**: For faster development and testing across devices.
+- **NativeWind**: For efficient styling with utility-first CSS classes.
+- **React Query**: For managing data fetching and caching.
+- **Supabase**: Backend as a service used for authentication, real-time data, and database management.
+- **SQLite**: For local data storage, providing offline capabilities.
+- **TypeScript**: To ensure type safety and improved developer experience.
+- **Tailwind CSS**: For design consistency and easy styling (via NativeWind).
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Node.js (v14 or higher)
+- Expo CLI (`npm install -g expo-cli`)
+- Git
+- A code editor (e.g., Visual Studio Code)
+
+### Installation
+
+1. **Clone the repository:**
    ```bash
-   npm install
+   git clone https://github.com/your-username/the-grand-horizon-hotel-app.git
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
